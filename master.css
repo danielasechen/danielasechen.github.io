@@ -1,0 +1,375 @@
+html { 
+    background-color: white;
+}
+
+body {
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-weight: 300;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+
+/* ****** Header section ****** */
+
+.header {
+    overflow: hidden;
+    background-color: rgba(76, 112, 209);
+    box-shadow: 0 4px 4px -2px rgba(0,0,0,.35);
+    padding: 20px 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 8;
+}
+
+.header a, .title {
+    float: left;
+    color: black;
+    text-align: center;
+    color: lavenderblush;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: rgba(255,255,255, .7);
+    color: black;
+}
+
+.header-right {
+    float: right;
+    padding-right: 20px;
+}
+
+
+/* ****** About section ****** */
+
+
+.profile-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.about {
+    display: block;
+    padding-left: 20%;
+    padding-right: 25%;
+    padding-top: 120px;
+    height: 270px;
+    text-align: justify;
+}
+
+a {
+    color: palevioletred;
+    font-style: bold;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .about {
+        height: 440px;
+    }
+    .about-text {
+        clear: both;
+    }
+    /* ALSO WANT TO CENTER PROFILE PIC! */
+}
+
+@media screen and (max-width: 1042px) {
+    .about {
+        height: 460px;
+    }
+}
+
+@media screen and (max-width: 895px) {
+    .about {
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 763px) {
+    .about {
+        height: 500px;
+        
+    }
+}
+
+@media screen and (max-width: 632px) {
+    .about {
+        padding-top: 180px;
+        height: 530px;
+    }
+}
+@media screen and (max-width: 587px) {
+    .about {
+        height: 560px;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .about {
+        height: 575px;
+    }
+}
+
+
+/* ****** #projects section ****** */
+
+/* anchor for header button */
+.anchor {
+    display: block;
+    position: relative;
+    top: -65px;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 632px) {
+    .anchor {
+        top: -100px;
+    }
+}
+
+.projects {
+    padding-left: 20%;
+    padding-right: 25%;
+    background-color: lavender;
+    height: 880px;
+}
+
+.main-app-img {
+    width: 200px;
+    height: 400px;
+}
+
+.bot-image {
+    width: 480px;
+    height: 420px;
+}
+
+.map-image {
+    width: 350px;
+    height: 200px;
+}
+
+h3 {
+    font-size: 27px;
+    color: white;
+    padding-left: 30px;
+}
+
+
+/* Project boxes */
+
+.container {
+    position: relative;
+    width: 760px;
+    height: 760px;
+    margin: 10px auto;
+    background: none;
+}
+
+.container .box {
+    position: relative;
+    width: 330px;
+    height: 330px;
+    background: pink;
+    float: left;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 8px 8px 4px -2px rgba(0,0,0,.2);
+
+}
+
+.container .box .popup {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(76, 112, 209, 0.4);
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.container .box:hover .popup {
+    visibility: visible;
+}
+
+.container .box .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -10%);
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    z-index: 1;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.container .box:hover .fas {
+    visibility: visible;
+    color: whitesmoke;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transition: 200ms ease-in-out;
+    transform: translate(-50%, -50%) scale(0);
+    border: 2px solid white;
+    border-radius: 2px;
+    background-color: pink;
+    z-index: 22;
+    width: 80%;
+    height: 70%;
+}
+
+.modal.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header .modal-title {
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+.modal-header .close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.modal .modal-body {
+    padding-left: 60px;
+    padding-right: 70px;
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+}
+
+.modal .modal-body a{
+    color: white;
+}
+
+
+.app-images {
+    overflow: auto;
+    padding-left: 70px;
+    padding-right: 60px;
+    max-width: 70vw;
+    max-height: 260px;
+}
+
+.app-img {
+    width: 130px;
+    height: 260px;
+    padding-right: 5px;
+}
+
+@media screen and (max-width: 953px) {
+    .app-img {
+        width: 110px;
+        height: 220px;
+    }
+    .app-images {
+        max-height: 220px;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    .app-img {
+        width: 100px;
+        height: 200px;
+    }
+    .app-images {
+        max-height: 200px;
+    }
+}
+
+@media screen and (max-width: 654px) {
+    .app-images {
+        visibility: hidden;
+    }
+}
+
+#overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    z-index: 9;
+    pointer-events: none;
+}
+
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+@media screen and (max-width: 950px) {
+    .container {
+        width: 700px;
+    }
+    .projects {
+        height: 1250px;
+    }
+}
+
+
+
+/* ****** Contact section ****** */
+
+.contact {
+    background-color: rgba(76, 112, 209, 0.521);
+    height: 260px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.fab, .fas {
+    font-size: 60px;
+    color: black;
+}
+.fab {
+    padding-left: 10px;
+}
+.fas {
+    padding-right: 80px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .contact {
+        height: 300px;
+    }
+}
+

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Daniela Sechen</title>
+    <link rel="stylesheet" type="text/css" href="master.css">
+    <script src="https://kit.fontawesome.com/139bddec35.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+    
+</head>
+
+<body>
+
+    <div class = "header" style = "padding-right: 35px;">
+        <div class="title">DANIELA SECHEN</div>
+        <div class = "header-right">
+            <a href="#about">About</a>
+            <a href="#anchor">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <div class = "about" id = "about">
+        <p style="float: left; padding-right: 35px;"><img src = "profile.jpeg" class = "profile-pic"></p>
+        <div class = "about-text">
+            <h1>Hello!</h1>
+            <p style="font-size: 18px;">I'm a CS/Math student at <a target="_blank" href="https://www.hmc.edu">Harvey Mudd College</a>, class of 2023.
+                I am also interested in foreign languages and linguistics, and I aspire to combine my
+                passions through work in natural language processing and artificial intelligence. Outside
+                of school, I enjoy lifting weights and working on graphic design for <a target="_blank"  href="http://themuddraker.org"><i>The Muddraker</i></a>.
+                Check out my coding projects below!
+            </p>
+        </div>
+    </div>
+
+    <div class = "anchor" id = "anchor"></div>
+
+    <div class = "projects" id = "projects">
+        <h1 style= "padding-top: 60px;">My projects:</h1>
+
+        <div class = "container">
+            <div class = "box">
+                <div data-modal-target="#app-modal" class = "icon"><i class="fas fa-search-plus"></i></div>
+                <div data-modal-target="#app-modal" class = "popup"></div>
+                <h3>Workout Tracker app</h3>
+                <img src="app-images/app1.png" class = "main-app-img">
+            </div>
+
+            <div class = "modal" id = "app-modal">
+                <div class = "modal-header">
+                    <h3 class = "modal-title">Workout Tracker app</h3>
+                    <button data-close-button class = "close-button">&times;</button>
+                    <p class="modal-body">This iOS app is an interactive calendar for logging workouts.
+                        It has fields to enter exercise names, sets, reps, and weights used. Swiping up
+                        opens the progress screen, where the user can select an exercise, and the app will
+                        graph weights used for that exercise over time. 
+                        <a target="_blank" rel="noopener noreferrer" href = "https://github.com/danielasechen/workout-tracker">
+                            View on GitHub.</a>
+                    </p>
+                    <div class = "app-images">
+                        <img src="app-images/app0.png" class = "app-img">
+                        <img src="app-images/app1.png" class = "app-img">
+                        <img src="app-images/app2.png" class = "app-img">
+                        <img src="app-images/app3.png" class = "app-img">
+                        <img src="app-images/app4.png" class = "app-img">
+                    </div>
+                </div>
+            </div>
+            <div id = "overlay"></div>
+
+            <div class = "box">
+                <h3>Sign-up bot</h3>
+                <div data-modal-target="#bot-modal" class = "icon"><i class="fas fa-search-plus"></i></div>
+                <div data-modal-target="#bot-modal" class = "popup"></div>
+                <img src="bot-ex.png" class = "bot-image">
+                
+            </div>
+
+            <div class = "modal" id = "bot-modal">
+                <div class = "modal-header">
+                    <h3 class = "modal-title">Sign-up bot</h3>
+                    <button data-close-button class = "close-button">&times;</button>
+                    <p class= "modal-body">During COVID-19, swim time slots at the YMCA are very competitive.
+                        Sign ups become available exactly on the hour, and you must be very
+                        quick to register before space is full. This sign-up bot can be programmed
+                        to run at an exact time, and it can register a user in seconds, as compared
+                        to the minutes it would take a human to do so.
+                        <br><br>
+                        Opening the YMCA webpage in an automated browser, the bot filters by date
+                        and location and searches for the desired time. It then clicks the correct buttons
+                        and fills out the required fields to complete the reservation in record time.
+                        <br><br>
+                        <a target="_blank" rel="noopener noreferrer" href = "https://github.com/danielasechen/ymca-bot">
+                            View the code on GitHub.</a>
+                    </p>
+
+                </div>
+            </div>
+            <div id = "overlay"></div>
+
+            <div class = "box">
+                <div data-modal-target="#map-modal" class = "icon"><i class="fas fa-search-plus"></i></div>
+                <div data-modal-target="#map-modal" class = "popup"></div>
+                <h3>Interactive COVID-19 risk map</h3>
+                <img src="map.png" class = "map-image">
+            </div>
+
+            <div class = "modal" id = "map-modal">
+                <div class = "modal-header">
+                    <h3 class = "modal-title">Interactive COVID-19 risk map</h3>
+                    <button data-close-button class = "close-button">&times;</button>
+                    <p class= "modal-body">This interactive map, built off data from government health
+                        surveys, highlights the prevalence of smoking as a COVID-19 risk factor across 
+                        U.S. counties. I used Pandas to read, clean, and extract the necessary data from
+                        CSV files.
+                        
+                        <br><br>
+                        <a target="_blank" rel="noopener noreferrer" href = "https://github.com/HMC-COVID-19-Unpacked/team-3/tree/master/Smoking">
+                            View the code on GitHub.</a>
+                    </p>
+                </div>
+            </div>
+            <div id = "overlay"></div>
+
+        </div>
+    </div>
+
+    <div class = "contact" id = "contact">
+        <h1 style= "padding-top: 30px; padding-bottom: 5px;">Contact</h1>
+        <p style = "font-size: 20px; padding-bottom: 10px;">I am actively searching for software engineering internships for summer 2021.
+            <br>Email me at dsechen@hmc.edu and/or check out my profiles linked below!
+        </p>
+        <a href="mailto:dsechen@hmc.edu"><i class="fas fa-envelope-square"></i></a>
+        <a href="https://www.linkedin.com/in/daniela-sechen/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/danielasechen/"><i class="fab fa-github"></i></a>
+    </div>
+
+</body>
+
+</html>
