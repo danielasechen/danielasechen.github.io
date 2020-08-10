@@ -15,7 +15,7 @@ body {
 
 .header {
     overflow: hidden;
-    background-color: rgba(76, 112, 209);
+    background-color: #96C0CE;
     box-shadow: 0 4px 4px -2px rgba(0,0,0,.35);
     padding: 20px 10px;
     position: fixed;
@@ -28,7 +28,7 @@ body {
     float: left;
     color: black;
     text-align: center;
-    color: lavenderblush;
+    color: white;
     padding: 12px;
     text-decoration: none;
     font-size: 18px; 
@@ -71,7 +71,7 @@ body {
 }
 
 a {
-    color: palevioletred;
+    color:  #74828F;
     font-style: bold;
 }
 
@@ -143,8 +143,9 @@ a {
 .projects {
     padding-left: 20%;
     padding-right: 25%;
-    background-color: lavender;
+    background-color: #74828F;
     height: 880px;
+    color: white;
 }
 
 .main-app-img {
@@ -183,7 +184,7 @@ h3 {
     position: relative;
     width: 330px;
     height: 330px;
-    background: pink;
+    background: #96C0CE;
     float: left;
     margin: 20px;
     box-sizing: border-box;
@@ -234,7 +235,7 @@ h3 {
     transform: translate(-50%, -50%) scale(0);
     border: 2px solid white;
     border-radius: 2px;
-    background-color: pink;
+    background-color:  #96C0CE;
     z-index: 22;
     width: 80%;
     height: 70%;
@@ -348,7 +349,7 @@ h3 {
 /* ****** Contact section ****** */
 
 .contact {
-    background-color: rgba(76, 112, 209, 0.521);
+    background-color: #96C0CE;
     height: 260px;
     text-align: center;
     padding-left: 10%;
