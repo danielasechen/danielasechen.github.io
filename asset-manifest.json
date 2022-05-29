@@ -1,16 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.d7ef81ef.css",
-    "main.js": "/static/js/main.db19be34.js",
+    "main.css": "/static/css/main.5c6b16d9.css",
+    "main.js": "/static/js/main.b20f34e5.js",
     "static/js/787.9509a3cc.chunk.js": "/static/js/787.9509a3cc.chunk.js",
     "static/media/profile.jpg": "/static/media/profile.0fca4a18f6f49242b805.jpg",
+    "static/media/app2.png": "/static/media/app2.a8bd13b48a3168a326a4.png",
+    "static/media/app1.png": "/static/media/app1.66b922886f8faca1cbb5.png",
+    "static/media/todo-2.png": "/static/media/todo-2.320ad77323a1e4f5faf4.png",
+    "static/media/app4.png": "/static/media/app4.b9406bee885698f7029a.png",
+    "static/media/todo-3.png": "/static/media/todo-3.92e7c0897474fb034af4.png",
+    "static/media/app3.png": "/static/media/app3.30e6931af57ddc71d83f.png",
+    "static/media/app0.png": "/static/media/app0.74f0ec12fecb9228a554.png",
+    "static/media/RoomDraw-1.png": "/static/media/RoomDraw-1.b296be602afc97816abf.png",
+    "static/media/TM-1.png": "/static/media/TM-1.3d3025c93425d15be043.png",
+    "static/media/Adona.png": "/static/media/Adona.63d9ff7aab5edf63f20a.png",
+    "static/media/todo-1.png": "/static/media/todo-1.886e24a8500655588cc9.png",
+    "static/media/Mudd.png": "/static/media/Mudd.1ccb256d457c342e2e26.png",
+    "static/media/Asana.jpg": "/static/media/Asana.cea42dcc6da7273b5211.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/index.html",
-    "main.d7ef81ef.css.map": "/static/css/main.d7ef81ef.css.map",
-    "main.db19be34.js.map": "/static/js/main.db19be34.js.map",
+    "main.5c6b16d9.css.map": "/static/css/main.5c6b16d9.css.map",
+    "main.b20f34e5.js.map": "/static/js/main.b20f34e5.js.map",
     "787.9509a3cc.chunk.js.map": "/static/js/787.9509a3cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7ef81ef.css",
-    "static/js/main.db19be34.js"
+    "static/css/main.5c6b16d9.css",
+    "static/js/main.b20f34e5.js"
   ]
 }
